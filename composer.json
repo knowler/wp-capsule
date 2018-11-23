@@ -1,6 +1,6 @@
 {
-  "name": "knowler/wp-schema-migration",
-  "description": "A fluent interface for schema migrations in WordPress.",
+  "name": "knowler/wp-capsule",
+  "description": "Laravel Illuminate Capsule configured for WordPress.",
   "license": "MIT",
   "authors": [
     {
@@ -9,18 +9,28 @@
       "homepage": "https://knowlerkno.ws"
     }
   ],
+  "keywords": [
+    "capsule",
+    "wordpress",
+    "laravel",
+    "illuminate",
+    "database"
+  ],
   "autoload": {
     "psr-4": {
-      "Knowler\\WP\\Database\\": "src"
+      "Knowler\\WP\\Capsule\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Knowler\\WP\\DatabaseTests\\": "tests"
+      "Knowler\\WP\\CapsuleTests\\": "tests"
     }
   },
   "require": {
-    "php": "^7.1"
+    "php": "^7.1",
+    "illuminate/database": "^5.7",
+    "illuminate/events": "^5.7",
+    "illuminate/support": "^5.7"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.3",

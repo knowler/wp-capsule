@@ -1,12 +1,11 @@
 <?php
 
-namespace Knowler\WP\Capsule;
+namespace KnowlerKnows\WP\Capsule;
 
-use Knowler\WP\Capsule\Capsule;
+use KnowlerKnows\WP\Capsule\Capsule;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
 use Illuminate\Support\Collection;
-use Illuminate\Support\ServiceProvider;
 
 class Boot
 {

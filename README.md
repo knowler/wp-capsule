@@ -29,9 +29,9 @@ Here's example usage within a plugin:
 require_once __DIR__ . '/vendor/autoload.php';
 
 /** Boot Capsule */
-new Knowler\WP\Capsule\Boot;
+new KnowlerKnows\WP\Capsule\Boot;
 
-use Knowler\WP\Capsule\Capsule;
+use KnowlerKnows\WP\Capsule\Capsule;
 
 register_activation_hook(__FILE__, function () {
     Capsule::schema()->create('products', function ($table) {

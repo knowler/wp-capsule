@@ -1,6 +1,6 @@
 <?php
 
-namespace Knowler\WP\Capsule;
+namespace KnowlerKnows\WP\Capsule;
 
 use Illuminate\Database\Capsule\Manager;
 

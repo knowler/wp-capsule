@@ -18,12 +18,12 @@
   ],
   "autoload": {
     "psr-4": {
-      "Knowler\\WP\\Capsule\\": "src"
+      "KnowlerKnows\\WP\\Capsule\\": "src"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Knowler\\WP\\CapsuleTests\\": "tests"
+      "KnowlerKnows\\WP\\CapsuleTests\\": "tests"
     }
   },
   "require": {

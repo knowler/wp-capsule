@@ -5,14 +5,19 @@
 Illuminate's [Capsule] preset for WordPress. This is just a
 wrapper with a config, so kudos to Laravel for being awesome. 
 
-This is _not_ a plugin, it's a package for use in a WordPress
-plugin.
+**This is _not_ a plugin, it's a package for use in a WordPress
+plugin. Also, note that it presumes that your WordPress site
+is using [PHP dotenv] under the hood. It works well if you 
+are using [Bedrock].**
 
 [Capsule]: https://github.com/illuminate/database
+[PHP dotenv]: https://github.com/vlucas/phpdotenv
+[Bedrock]: https://github.com/roots/bedrock
 
 ## Requirements
 
 * PHP: ^7.1
+* [PHP dotenv]
 
 ## Installation
 
